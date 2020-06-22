@@ -1,0 +1,20 @@
+$nav: #e0e0e0;
+
+/*sizes and breakpoints*/
+$phones: 320px;
+$phones-max: 500px;
+$tablets: 501px;
+$tablets-max: 1299px;
+$desktops-min: 1300px;
+$desktops: 1300px;
+
+$tablets-max-width: 768px;
+$desktops-max-width: 5300px;
+
+$phones-paddings: 20px;
+$tablets-paddings: 20px;
+$desktops-paddings: 70px;
+
+/*retina*/
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;

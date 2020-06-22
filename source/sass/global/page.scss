@@ -1,0 +1,34 @@
+
+body {
+	width: 99.5%;
+	margin-top: 0;
+	
+}
+
+
+
+html {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+
+.container {
+	@include set-container;
+}
+
+.visually-hidden {
+	@include visually-hidden;
+}
+
+
+

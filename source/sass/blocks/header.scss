@@ -1,0 +1,41 @@
+
+.header {
+	height: 700px;
+	background-image: url("/img/bg.jpg");
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+}
+
+.header__title {
+	color: $nav;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header__list {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+	list-style: none;
+}
+
+.header__item {
+
+}
+
+.header__link {
+	font-family: "Arial regular";
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 300;
+	color: $nav;
+	text-decoration: none;
+
+	&:hover {
+		color: #c6c6c6;
+	}
+}
